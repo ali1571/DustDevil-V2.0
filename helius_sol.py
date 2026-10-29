@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 
-API_KEY  = os.environ.get("HELIUS_API_KEY", "e677f341-1aea-4192-82c2-1191ae8643cc")
+API_KEY  = os.environ.get("HELIUS_API_KEY", "API-KEY")
 API_URL  = f"https://mainnet.helius-rpc.com/?api-key={API_KEY}"
 OUT_FILE = "active_wallets.txt"
 
